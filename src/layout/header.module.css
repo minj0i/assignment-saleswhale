@@ -1,0 +1,18 @@
+.headerContainer {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.appName {
+  width: 127px;
+  padding-left: 30px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1a1919;
+  opacity: 0.5;
+}
+.pageTitle {
+  margin-left: 27px;
+  font-size: 18px;
+  line-height: 22px;
+}
