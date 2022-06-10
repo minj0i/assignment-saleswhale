@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/assignment-saleswhale/static/css/main.606b77fe.css",
+    "main.js": "/assignment-saleswhale/static/js/main.c2806434.js",
+    "static/js/787.e8cc2920.chunk.js": "/assignment-saleswhale/static/js/787.e8cc2920.chunk.js",
+    "static/media/index.less": "/assignment-saleswhale/static/media/index.512735b3dccd7d4b3088.less",
+    "static/media/BasicLayout.less": "/assignment-saleswhale/static/media/BasicLayout.e3298205d2297cdf933b.less",
+    "static/media/icon companies.svg": "/assignment-saleswhale/static/media/icon companies.99739371cc1643bb99c10253a4f6eaa6.svg",
+    "static/media/icon-leads.svg": "/assignment-saleswhale/static/media/icon-leads.d3e019709f8a49b62ab835138aca32d0.svg",
+    "static/media/icon-help.svg": "/assignment-saleswhale/static/media/icon-help.63046d63913f28bca126022da6449683.svg",
+    "static/media/icon-campaign.svg": "/assignment-saleswhale/static/media/icon-campaign.57d8942804f803c33f196c9fcbc4d219.svg",
+    "index.html": "/assignment-saleswhale/index.html",
+    "static/media/icon-reports.svg": "/assignment-saleswhale/static/media/icon-reports.981de98c8a2691495e4ca63279eef818.svg",
+    "static/media/star active.svg": "/assignment-saleswhale/static/media/star active.36e5fe672590d1bc0b722746ce8c8678.svg",
+    "static/media/Header.less": "/assignment-saleswhale/static/media/Header.46339345a8b83c8f5102.less",
+    "static/media/GridContent.less": "/assignment-saleswhale/static/media/GridContent.96954e72cf09e0d8aadc.less",
+    "static/media/default.less": "/assignment-saleswhale/static/media/default.003f90b383291c3b90da.less",
+    "main.606b77fe.css.map": "/assignment-saleswhale/static/css/main.606b77fe.css.map",
+    "main.c2806434.js.map": "/assignment-saleswhale/static/js/main.c2806434.js.map",
+    "787.e8cc2920.chunk.js.map": "/assignment-saleswhale/static/js/787.e8cc2920.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.606b77fe.css",
+    "static/js/main.c2806434.js"
+  ]
+}
