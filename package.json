@@ -15,6 +15,7 @@
     "add": "^2.0.6",
     "and": "^0.0.3",
     "antd": "^4.21.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
@@ -23,11 +24,14 @@
     "web-vitals": "^2.1.0",
     "yarn": "^1.22.19"
   },
+  "homepage": "http://minj0i.github.io/assignment-saleswhale/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
