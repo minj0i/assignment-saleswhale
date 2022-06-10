@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/assignment-saleswhale/static/css/main.606b77fe.css",
-    "main.js": "/assignment-saleswhale/static/js/main.c2806434.js",
+    "main.js": "/assignment-saleswhale/static/js/main.53d148b4.js",
     "static/js/787.e8cc2920.chunk.js": "/assignment-saleswhale/static/js/787.e8cc2920.chunk.js",
     "static/media/index.less": "/assignment-saleswhale/static/media/index.512735b3dccd7d4b3088.less",
     "static/media/BasicLayout.less": "/assignment-saleswhale/static/media/BasicLayout.e3298205d2297cdf933b.less",
@@ -16,11 +16,11 @@
     "static/media/GridContent.less": "/assignment-saleswhale/static/media/GridContent.96954e72cf09e0d8aadc.less",
     "static/media/default.less": "/assignment-saleswhale/static/media/default.003f90b383291c3b90da.less",
     "main.606b77fe.css.map": "/assignment-saleswhale/static/css/main.606b77fe.css.map",
-    "main.c2806434.js.map": "/assignment-saleswhale/static/js/main.c2806434.js.map",
+    "main.53d148b4.js.map": "/assignment-saleswhale/static/js/main.53d148b4.js.map",
     "787.e8cc2920.chunk.js.map": "/assignment-saleswhale/static/js/787.e8cc2920.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.606b77fe.css",
-    "static/js/main.c2806434.js"
+    "static/js/main.53d148b4.js"
   ]
 }
