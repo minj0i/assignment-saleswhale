@@ -1,4 +1,12 @@
-# umi project
+# Assignment-saleswhale
+
+Assignment-saleswhale(Frontend Engineer, Junior / University Grad, Saleswhale)
+
+- React
+- TypeScript
+- Antd, Antd-design-pro
+
+---
 
 ## Getting Started
 
@@ -13,4 +21,37 @@ Start the dev server,
 ```bash
 $ yarn start
 ```
-# assignment-saleswhale
+
+---
+
+## Folder Structure
+
+```
+src
+ ┣ 📂components
+ ┃ ┗ 📂icons
+ ┃ ┃ ┣ 📜...icons
+ ┃ ┃ ┗ 📜swLogoWhite.tsx
+ ┣ 📂data
+ ┃ ┗ 📜mock.json // test data
+ ┣ 📂layout
+ ┃ ┣ 📜TeamsLayout.tsx // Main Layout
+ ┃ ┣ 📜_defaultProps.tsx // layout configure
+ ┃ ┣ 📜header.module.css
+ ┃ ┣ 📜header.tsx
+ ┃ ┗ 📜index.module.css
+ ┣ 📂pages
+ ┃ ┗ 📂teams
+ ┃ ┃ ┣ 📜activityCard.tsx
+ ┃ ┃ ┣ 📜index.module.css
+ ┃ ┃ ┗ 📜teamsCard.tsx // data card
+ ┣ 📜App.css
+ ┣ 📜App.test.tsx
+ ┣ 📜App.tsx
+ ┣ 📜index.css
+ ┣ 📜index.tsx
+ ┣ 📜react-app-env.d.ts
+ ┣ 📜reportWebVitals.ts
+ ┣ 📜routes.tsx
+ ┗ 📜setupTests.ts
+```

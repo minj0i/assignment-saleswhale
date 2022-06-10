@@ -9,6 +9,7 @@ import { TeamsCard } from '../pages/teams/teamsCard'
 import { ActivityCard } from '../pages/teams/activityCard'
 import { SwLogoWhite } from '../components/icons/swLogoWhite'
 import iconHelp from '../components/icons/icon-help.svg'
+import { PlusOutlined } from '@ant-design/icons'
 
 interface BaseProps {
   children?: React.ReactNode
