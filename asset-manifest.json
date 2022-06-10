@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/assignment-saleswhale/static/css/main.606b77fe.css",
-    "main.js": "/assignment-saleswhale/static/js/main.6534247d.js",
-    "static/js/787.e8cc2920.chunk.js": "/assignment-saleswhale/static/js/787.e8cc2920.chunk.js",
+    "main.css": "/assignment-saleswhale/static/css/main.be0fdb1a.css",
+    "main.js": "/assignment-saleswhale/static/js/main.ac700cd2.js",
+    "static/js/27.016163c8.chunk.js": "/assignment-saleswhale/static/js/27.016163c8.chunk.js",
     "static/media/index.less": "/assignment-saleswhale/static/media/index.512735b3dccd7d4b3088.less",
     "static/media/BasicLayout.less": "/assignment-saleswhale/static/media/BasicLayout.e3298205d2297cdf933b.less",
     "static/media/icon companies.svg": "/assignment-saleswhale/static/media/icon companies.99739371cc1643bb99c10253a4f6eaa6.svg",
@@ -14,13 +14,10 @@
     "static/media/star active.svg": "/assignment-saleswhale/static/media/star active.36e5fe672590d1bc0b722746ce8c8678.svg",
     "static/media/Header.less": "/assignment-saleswhale/static/media/Header.46339345a8b83c8f5102.less",
     "static/media/GridContent.less": "/assignment-saleswhale/static/media/GridContent.96954e72cf09e0d8aadc.less",
-    "static/media/default.less": "/assignment-saleswhale/static/media/default.003f90b383291c3b90da.less",
-    "main.606b77fe.css.map": "/assignment-saleswhale/static/css/main.606b77fe.css.map",
-    "main.6534247d.js.map": "/assignment-saleswhale/static/js/main.6534247d.js.map",
-    "787.e8cc2920.chunk.js.map": "/assignment-saleswhale/static/js/787.e8cc2920.chunk.js.map"
+    "static/media/default.less": "/assignment-saleswhale/static/media/default.003f90b383291c3b90da.less"
   },
   "entrypoints": [
-    "static/css/main.606b77fe.css",
-    "static/js/main.6534247d.js"
+    "static/css/main.be0fdb1a.css",
+    "static/js/main.ac700cd2.js"
   ]
 }
