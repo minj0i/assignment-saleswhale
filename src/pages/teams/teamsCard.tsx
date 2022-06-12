@@ -28,7 +28,7 @@ export const TeamsCard: React.FC<IProps> = ({ section, totalData, data }) => {
           data.map((value, index) => (
             <Col span={8} key={index}>
               <Card.Grid className={styles.gridStyle}>
-                <div className={styles.topContianer}>
+                <div className={`${styles.topContianer} ${value.is_archived ? styles.archivedContainer : ''}`}>
                   <div className={styles.row}>
                     <img className={styles.business_logo} src={value.image} />
                     <div>
@@ -38,7 +38,7 @@ export const TeamsCard: React.FC<IProps> = ({ section, totalData, data }) => {
                   </div>
                   <div className={styles.description}>{value.description}</div>
                 </div>
-                <div className={styles.campaign_info}>
+                <div className={`${styles.campaign_info} ${value.is_archived ? styles.archivedContainer : ''}`}>
                   <div>
                     <img alt="campaignicon" src={iconCanversationSmall} style={{ marginRight: '3px' }} />
                     {value.campaigns_count} Campaigns

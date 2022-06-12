@@ -14,6 +14,9 @@
 .topContianer {
   padding: 16px;
 }
+.archivedContainer {
+  background-color: #ebeef2;
+}
 .row {
   display: flex;
 }
