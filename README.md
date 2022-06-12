@@ -4,7 +4,8 @@ Assignment-saleswhale(Frontend Engineer, Junior / University Grad, Saleswhale)
 
 - React
 - TypeScript
-- Antd, Antd-design-pro
+- Used libraries: Antd, Antd-design-pro
+- Fetch Data from API with useEffect
 
 ---
 
