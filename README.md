@@ -45,6 +45,28 @@ useEffect(() => {
 <TeamsCard section={section} totalData={data?.teams?.length} data={cardData} />
 ```
 
+- Make a difference between card style(Yellow star/Empty star) to favorites and unfavorite by data(is_favorite)
+
+```js
+//teamsCard.tsx
+:52
+{value.is_favorited ? (
+  <img alt="favorite" src={starActive} className={styles.star} />
+) : (
+  <img alt="unfavorite" src={starDefault} className={styles.star} />
+)}
+```
+
+- Make a difference between card Style(Background grey) to archived card
+
+```js
+//teamsCard.tsx
+:31
+  <div className={`${styles.topContianer} ${value.is_archived ? styles.archivedContainer : ''}`}>
+:41
+  <div className={`${styles.campaign_info} ${value.is_archived ? styles.archivedContainer : ''}`}>
+```
+
 ---
 
 ## Getting Started
