@@ -1,13 +1,66 @@
 # Assignment-saleswhale
 
-https://github.com/minj0i/assignment-saleswhale
-
 Assignment-saleswhale(Frontend Engineer, Junior / University Grad, Saleswhale)
+
+- Mock up on Figma(https://www.figma.com/file/ZttV7gZOn3N9DMGuJea63DOt/SW-Frontend-UI-Test?node-id=0%3A1)
 
 - React
 - TypeScript
 - Used libraries: Antd, Antd-design-pro
-- Mock up on Figma(https://www.figma.com/file/ZttV7gZOn3N9DMGuJea63DOt/SW-Frontend-UI-Test?node-id=0%3A1)
+
+---
+
+## Getting Started
+
+Clone code at https://github.com/minj0i/assignment-saleswhale
+
+```bash
+$ yarn
+```
+
+Start the dev server,
+
+```bash
+$ yarn start
+```
+
+---
+
+## Folder Structure
+
+```
+src
+ ┣ 📂components
+ ┃ ┗ 📂icons
+ ┃ ┃ ┣ 📜...icons
+ ┃ ┃ ┗ 📜swLogoWhite.tsx
+ ┣ 📂data
+ ┃ ┗ 📜mock.json // test data
+ ┣ 📂layout
+ ┃ ┣ 📜TeamsLayout.tsx // Main Layout
+ ┃ ┣ 📜_defaultProps.tsx // layout configure
+ ┃ ┣ 📜header.module.css
+ ┃ ┣ 📜header.tsx
+ ┃ ┗ 📜index.module.css
+ ┣ 📂pages
+ ┃ ┗ 📂teams
+ ┃ ┃ ┣ 📜activityCard.tsx
+ ┃ ┃ ┣ 📜index.module.css
+ ┃ ┃ ┗ 📜teamsCard.tsx // data card
+ ┣ 📜App.css
+ ┣ 📜App.test.tsx
+ ┣ 📜App.tsx
+ ┣ 📜index.css
+ ┣ 📜index.tsx
+ ┣ 📜react-app-env.d.ts
+ ┣ 📜reportWebVitals.ts
+ ┣ 📜routes.tsx
+ ┗ 📜setupTests.ts
+```
+
+---
+
+## Detailed instruction
 
 - Fetch Data from API with useEffect
 
@@ -65,54 +118,4 @@ useEffect(() => {
   <div className={`${styles.topContianer} ${value.is_archived ? styles.archivedContainer : ''}`}>
 :41
   <div className={`${styles.campaign_info} ${value.is_archived ? styles.archivedContainer : ''}`}>
-```
-
----
-
-## Getting Started
-
-Install dependencies,
-
-```bash
-$ yarn
-```
-
-Start the dev server,
-
-```bash
-$ yarn start
-```
-
----
-
-## Folder Structure
-
-```
-src
- ┣ 📂components
- ┃ ┗ 📂icons
- ┃ ┃ ┣ 📜...icons
- ┃ ┃ ┗ 📜swLogoWhite.tsx
- ┣ 📂data
- ┃ ┗ 📜mock.json // test data
- ┣ 📂layout
- ┃ ┣ 📜TeamsLayout.tsx // Main Layout
- ┃ ┣ 📜_defaultProps.tsx // layout configure
- ┃ ┣ 📜header.module.css
- ┃ ┣ 📜header.tsx
- ┃ ┗ 📜index.module.css
- ┣ 📂pages
- ┃ ┗ 📂teams
- ┃ ┃ ┣ 📜activityCard.tsx
- ┃ ┃ ┣ 📜index.module.css
- ┃ ┃ ┗ 📜teamsCard.tsx // data card
- ┣ 📜App.css
- ┣ 📜App.test.tsx
- ┣ 📜App.tsx
- ┣ 📜index.css
- ┣ 📜index.tsx
- ┣ 📜react-app-env.d.ts
- ┣ 📜reportWebVitals.ts
- ┣ 📜routes.tsx
- ┗ 📜setupTests.ts
 ```
