@@ -33,7 +33,6 @@ export const TeamsLayout: React.FC<BaseProps> = ({ children }) => {
       .then(res => res.text())
       .then(parseErrorSolve => {
         const newJson = JSON.parse(parseErrorSolve.replaceAll(',\n    ,\n', ',\n'))
-        console.log(newJson)
         setData(newJson)
       })
       .catch(error => {
